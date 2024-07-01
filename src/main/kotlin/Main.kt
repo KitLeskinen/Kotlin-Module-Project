@@ -1,3 +1,8 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+
+    val archiveContainer = ArchiveContainer()
+    val menu = MenuArchive(archiveContainer)
+    menu.start()
 }
+
+
